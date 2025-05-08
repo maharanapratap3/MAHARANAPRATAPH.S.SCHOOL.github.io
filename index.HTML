@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maharana Pratap Higher Secondary School</title>
+    <link rel="stylesheet" href="PD.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background: #6c4ea0;
+          color: white;
+          text-align: center;
+        }
+    
+        .header {
+          font-size: 40px;
+          padding: 20px;
+          color: #ff7e72;
+          font-weight: bold;
+        }
+    
+        .photo-circle {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin: 0 auto;
+          border: 5px solid #fff;
+        }
+    
+        .photo-circle img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+    
+        .message-section {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: rgba(255, 255, 255, 0.1);
+          border-radius: 20px;
+          line-height: 1.6;
+          text-align: justify;
+        }
+    
+        h2 {
+          margin-top: 20px;
+          font-size: 28px;
+        }
+    
+        p {
+          font-size: 16px;
+        }
+      </style>
+       <style>
+        body {
+          margin: 0;
+          font-family: sans-serif;
+          background: #6c4ea0;
+          color: white;
+        }
+    
+        .why-section {
+          padding: 40px 20px;
+          text-align: center;
+        }
+    
+        .why-section h2 {
+          font-size: 32px;
+          margin-bottom: 30px;
+        }
+    
+        .features {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 30px;
+          max-width: 1000px;
+          margin: auto;
+        }
+    
+        .feature-box {
+          background-color: rgba(255, 255, 255, 0.1);
+          padding: 20px;
+          border-radius: 12px;
+          width: 260px;
+          box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+    
+        .feature-box h4 {
+          margin-top: 10px;
+          font-size: 18px;
+        }
+    
+        .image-side {
+          margin-top: 30px;
+        }
+    
+        .image-side img {
+          max-width: 200px;
+        }
+      </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="maha2.jpg" alt="School Logo">
+                <div class="logo-text">
+                    <h1> <font color="purple"> MAHARANA PRATAP HIGHER SECONDARY SCHOOL           </font> </h1>
+                    <p>"Knowledge is Power, Embrace Education"</p>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#admission" class="admission-btn">Admission</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Maharana Pratap Higher Secondary School</h1>
+            <p>Nurturing Excellence Since 2001</p>
+            <div class="hero-btns">
+                <a href="#admission" class="cta-button">Admission 2025-26</a>
+                <a href="#contact" class="cta-button secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Enquiry Section -->
+    <section id="admission" class="admission-enquiry">
+        <div class="container">
+            <h2>Admission Enquiry <span>2025–2026</span></h2>
+            <form action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" name="student_name" placeholder="Student Name*" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" name="father_name" placeholder="Father Name*" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="class" required>
+                            <option value="">Select Class</option>
+                            <option value="Nursery">Nursery</option>
+                            <option value="KG-1">KG-1</option>
+                            <option value="KG-2">KG-2</option>
+                            <option value="1st">1st</option>
+                            <option value="2nd">2nd</option>
+                            <option value="3rd">3rd</option>
+                            <option value="4th">4th</option>
+                            <option value="5th">5th</option>
+                            <option value="6th">6th</option>
+                            <option value="7th">7th</option>
+                            <option value="8th">8th</option>
+                            <option value="9th">9th</option>
+                            <option value="10th">10th</option>
+                            <option value="11th">11th</option>
+                            <option value="12th">12th</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" name="contact_number" placeholder="Contact Number*" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="address" placeholder="Address*" required>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Our School</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Established in 2001, Maharana Pratap Higher Secondary School is committed to providing quality education from Nursery to 12th grade under the MP Board curriculum. Our mission is to nurture young minds with a perfect blend of academic excellence and moral values.</p>
+                    <div class="school-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Education</h3>
+                            <p>Nursery to 12th Grade</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-book"></i>
+                            <h3>Board</h3>
+                            <p>MP Board</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar"></i>
+                            <h3>Established</h3>
+                            <p>2001</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="1.jpg" alt="School Building">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <h2>Our Facilities</h2>
+            <p class="section-subtitle">We provide world-class facilities for holistic development</p>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Science Lab</h3>
+                    <p>Well-equipped laboratories for Physics, Chemistry and Biology</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Computer Lab</h3>
+                    <p>Modern computer lab with latest technology</p>
+                </div>
+                <div class="facility-card">
+                    <div cla ss="facility-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Robotics Lab</h3>
+                    <p>Hands-on learning with robotics and AI</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-horse"></i>
+                    </div>
+                    <h3>Horse Riding</h3>
+                    <p>Equestrian training for physical development</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <h3>Transport</h3>
+                    <p>Safe and reliable school transportation</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Library</h3>
+                    <p>Extensive collection of books and resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <p class="section-subtitle">Glimpses of life at Maharana Pratap</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="1.jpg" alt="School Building">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="2.jpg" alt="Classroom">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="3.jpg" alt="Playground">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="4.jpg" alt="Students">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="6.jpg" alt="Activities">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="7.jpg" alt="Events">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="header">Our Management</div>
+
+  <div class="photo-circle">
+    <img src="15.png" alt="Principal Photo">
+  </div>
+
+  <h2>Principal's Message</h2>
+
+  <div class="message-section">
+    <p>“Success comes to those who work hard and stays with those, who don’t rest on the laurels of the past.”</p>
+
+    <p>We believe that education is the most powerful tool with which one can change the world and it has been our earnest endeavor to pursue excellence in the field of academics.</p>
+
+    <p>Education is the movement from the darkness of slavery to the freedom of light. Hence, education and freedom go hand in hand by transforming the lives of both the teachers and the students.</p>
+
+    <p>Guru Nanak International School’s mission is to give the students the all-round capabilities including creativity, observation and knowledge empowerment leading to the generation of excellent performing citizens with sterling character.</p>
+  </div>
+
+</body>
+<body>
+<section class="why-section">
+    <h2>Why Choose Us</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h4>Safe and Friendly Campus</h4>
+        <p>Our school provides a nurturing, well-maintained, and secure environment for every child.</p>
+      </div>
+      <div class="feature-box">
+        <h4>Smart Learning</h4>
+        <p>Blending traditional methods with smart technology to make learning interactive and fun.</p>
+      </div>
+      <div class="feature-box">
+        <h4>Practical Activities</h4>
+        <p>Learning beyond textbooks with projects, presentations, and real-world activities.</p>
+      </div>
+      <div class="feature-box">
+        <h4>Physical Fitness & Games</h4>
+        <p>Balanced focus on physical growth through sports, yoga, and fitness programs.</p>
+      </div>
+      <div class="feature-box">
+        <h4>Updated Curriculum</h4>
+        <p>Curriculum aligned with modern education needs, with regular updates and innovations.</p>
+      </div>
+      <div class="feature-box">
+        <h4>Progress Tracking</h4>
+        <p>Student progress is monitored regularly to ensure continuous improvement.</p>
+      </div>
+    </div>
+
+    <div class="image-side">
+      <img src="1.jpg" alt="Children Image">
+    </div>
+  </section>
+  </body>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Parents Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Maharana Pratap School has provided excellent education and values to my child. The teachers are very dedicated and caring."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Rahul Sharma</h4>
+                        <p>Parent of Class 5 student</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The school's focus on holistic development through academics and extracurricular activities is commendable."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Priya Patel</h4>
+                        <p>Parent of Class 8 student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p><font color="purple">Jawahar Colony, Shivpuri MP (473551) </font></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <divf>
+                            <h3>Phone</h3>
+                            <p><font color="purple">91+ 9993490546</b> </font></p> 
+                            <p><font color="purple">91+ 9893502705</b> </font></p> 
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><font color="purple">maharanapratap@gmail.com </font></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Working Hours</h3>
+                            <font color="purple">  <p>Monday - Friday: 8:00 AM - 2:00 PM</p>
+                            <p>Saturday: 8:00 AM - 2:00 PM</p> </font>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.234567890123!2d75.12345678901234!3d25.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA3JzI0LjQiTiA3NcKwMDcnMjQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo">
+                        <img src="maha2.jpg" alt="School Logo">
+                        <div class="logo-text">
+                            <h3>MAHARANA PRATAP HIGHER SECONDARY SCHOOL</h3>
+                        </div>
+                    </div>
+                    <p>"Knowledge is Power, Embrace Education"</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Academics</h3>
+                    <ul>
+                        <li><a href="#">Curriculum</a></li>
+                        <li><a href="#">Admission</a></li>
+                        <li><a href="#">School Calendar</a></li>
+                        <li><a href="#">Results</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for latest updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Maharana Pratap Higher Secondary School. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="END.JS"></script>
+</body>
+<script class="kr">
+    window.onload = function() {
+        alert("Welcome to Maharana Pratap Higher Secondary School!");
+    };
+</script>
+</html>
